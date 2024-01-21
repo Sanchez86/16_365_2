@@ -1080,7 +1080,7 @@ option {
   position: absolute;
 }
 .yen {
-  background-image: url('../images/_01.png');
+  background-image: url('../images/01.png');
   width: 33px;
   height: 33px;
   left: 89px;
@@ -1088,7 +1088,7 @@ option {
   transition: all 0.5s;
 }
 .usd {
-  background-image: url('../images/_00.png');
+  background-image: url('../images/00.png');
   width: 46px;
   height: 45px;
   left: 80px;
@@ -1096,7 +1096,7 @@ option {
   z-index: 1;
 }
 .euro {
-  background-image: url('../images/_02.png');
+  background-image: url('../images/02.png');
   width: 35px;
   height: 35px;
   left: 107px;
@@ -1104,7 +1104,7 @@ option {
   transition: all 0.5s;
 }
 .clock {
-  background-image: url('../images/_06.png');
+  background-image: url('../images/06.png');
   width: 52px;
   height: 68px;
   top: 59px;
@@ -1113,10 +1113,10 @@ option {
   transition: all 1s;
 }
 .clockActive {
-  background-image: url('../images/_06Active.png');
+  background-image: url('../images/06Active.png');
 }
 .baks {
-  background-image: url('../images/_3_2.png');
+  background-image: url('../images/3_2.png');
   width: 37px;
   height: 37px;
   top: 98px;
@@ -1124,7 +1124,7 @@ option {
   transition: all 1s;
 }
 .hend {
-  background-image: url('../images/_3_1.png');
+  background-image: url('../images/3_1.png');
   width: 37px;
   height: 34px;
   top: 135px;
@@ -1132,28 +1132,28 @@ option {
   transition: all 1s;
 }
 .arrowLeft {
-  background-image: url('../images/_7.1.png');
+  background-image: url('../images/7.1.png');
   width: 24px;
   height: 43px;
   top: 78px;
   left: 50px;
 }
 .arrowBaks {
-  background-image: url('../images/_07.png');
+  background-image: url('../images/07.png');
   width: 13px;
   height: 22px;
   top: 83px;
   left: 70px;
 }
 .arrowRight {
-  background-image: url('../images/_7.2.png');
+  background-image: url('../images/7.2.png');
   width: 24px;
   height: 43px;
   top: 66px;
   left: 79px;
 }
 .pig {
-  background-image: url('../images/_5.png');
+  background-image: url('../images/5.png');
   width: 65px;
   height: 60px;
   left: -9px;
@@ -1161,7 +1161,7 @@ option {
   z-index: 100 !important;
 }
 .pigBaks {
-  background-image: url('../images/_5_1.png');
+  background-image: url('../images/5_1.png');
   width: 23px;
   height: 23px;
   top: -10px;
@@ -1229,43 +1229,43 @@ option {
   transition: background-image 0.5s;
 }
 .step1Active .yen {
-  background-image: url('../images/_01Active.png');
+  background-image: url('../images/01Active.png');
   transition: all 0.5s;
 }
 .step1Active .usd {
-  background-image: url('../images/_00Active.png');
+  background-image: url('../images/00Active.png');
   transition: background-image 0.5s;
 }
 .step1Active .euro {
-  background-image: url('../images/_02Active.png');
+  background-image: url('../images/02Active.png');
   transition: all 0.5s;
 }
 .step3Active .baks {
-  background-image: url('../images/_3_2Active.png');
+  background-image: url('../images/3_2Active.png');
   transition: all 1s;
 }
 .step3Active .hend {
-  background-image: url('../images/_3_1Active.png');
+  background-image: url('../images/3_1Active.png');
   transition: all 0.5s;
 }
 .step4Active .arrowLeft {
-  background-image: url('../images/_7.1Active.png');
+  background-image: url('../images/7.1Active.png');
   transition: all 0.5s;
 }
 .step4Active .arrowRight {
-  background-image: url('../images/_7.2Active.png');
+  background-image: url('../images/7.2Active.png');
   transition: all 0.5s;
 }
 .step4Active .arrowBaks {
-  background-image: url('../images/_07Active.png');
+  background-image: url('../images/07Active.png');
   transition: all 0.5s;
 }
 .step5Active .pig {
-  background-image: url('../images/_5Active.png');
+  background-image: url('../images/5Active.png');
   transition: all 1s;
 }
 .step5Active .pigBaks {
-  background-image: url('../images/_5_1Active.png');
+  background-image: url('../images/5_1Active.png');
   transition: all 0.5s;
 }
 /**/
