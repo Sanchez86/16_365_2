@@ -1153,7 +1153,7 @@ option {
   left: 79px;
 }
 .pig {
-  background-image: url('../images/5.png');
+  background-image: url('../images/5_2.png');
   width: 65px;
   height: 60px;
   left: -9px;
@@ -1261,7 +1261,7 @@ option {
   transition: all 0.5s;
 }
 .step5Active .pig {
-  background-image: url('../images/5Active.png');
+  background-image: url('../images/5_2Active.png');
   transition: all 1s;
 }
 .step5Active .pigBaks {
