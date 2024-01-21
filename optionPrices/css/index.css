@@ -1,0 +1,597 @@
+
+@font-face {
+    font-family: 'futura md bt';
+    src: url('../../fonts/futura md bt.eot') format('embedded-opentype'), url('../../fonts/futura md bt.otf') format('opentype'), url('../../fonts/futura md bt.svg') format('svg'), url('../../fonts/futura md bt.ttf') format('truetype'), url('../../fonts/futura md bt.woff') format('woff');
+}
+@font-face {
+    font-family: 'futura light bt';
+    src: url('../../fonts/futura light bt.eot') format('embedded-opentype'), url('../../fonts/futura light bt.otf') format('opentype'), url('../../fonts/futura light bt.svg') format('svg'), url('../../fonts/futura light bt.ttf') format('truetype'), url('../../fonts/futura light bt.woff') format('woff');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#TBContainer {
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+#TBContainer,
+#TBContainer *{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+#TBPCButtons{
+    height: 39px;
+    margin-bottom: 11px;
+}
+#TBPCValue{
+    
+display: inline-block;
+    
+float: left;
+    
+height: 100%;
+    
+font-size: 19px;
+    
+text-align: center;
+    
+line-height: 39px;
+}
+#TBImage{
+    
+width: 100%;
+    
+position: absolute;
+}
+#TBMain{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#TBTitle {
+    font-family: 'futura md bt';
+    font-weight:bold;
+    font-size: 48px;
+    text-align: center;
+    color:#2b2b2b;
+    margin-top: 59px;
+    letter-spacing: 2.8px;
+    margin-bottom: 9px;
+}
+
+#TBInner {
+    position: relative;
+    top: 54px;
+    right: -820px;
+    float: none;
+    clear: both;
+    margin: 0;
+}
+
+#TBInnerTitle {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'futura light bt';
+}
+#TBInnerTitle span{
+    display: block;
+}
+#TBInnerUnderline {
+    margin-top: -30px;
+}
+
+#TBInnerPercent {font-family: 'futura light bt'; position: relative;top:18px;font-size: 65px;color: #2da75c;text-align: center;}
+
+#TBInnerDesc {font-family: 'OpenSans-Regular';font-size: 30px;text-align: center;position: relative;    top: 60px;}
+
+#TBPCBlock {position: relative;max-width: 809px;margin: 0 auto;    margin-top: 108px;}
+
+#TBPCBackground{
+    position: absolute;
+    width: 100%;
+}
+#TBPCDeals {position: relative;top: 70px;left: 110px;}
+.TBChoose{
+    
+position: relative;
+    
+height: 38px;
+    
+background-repeat: no-repeat;
+    
+font-size: 17px;
+    
+padding-left: 46px;
+    
+padding-top: 7px;
+    
+color: white;
+    
+background-size: 100%;
+    
+margin-bottom: 12px;
+}
+.TBNum{
+    
+position: absolute;
+    
+left: 13px;
+    
+top: 11px;
+}
+#TBNum1{
+    color: #295e85;
+}
+#TBNum2{
+    color: #009231;    
+}
+#TBNum3{
+    color: #f86800;    
+}
+#TBNum4{
+    color: #295e85;    
+}
+.TBPCSelect{
+    
+width: 323px;
+    
+height: 39px;
+    
+display: block;
+    
+margin-bottom: 11px;
+    
+padding-left: 10px;
+    
+text-transform: uppercase;
+    
+color: #919191;
+}
+#TBChoose1 {background-image: url(../images/choose/choose_1.png);}
+
+#TBChoose2 {background-image: url(../images/choose/choose_2.png);}
+
+#TBChoose3 {background-image: url(../images/choose/choose_3.png);}
+
+#TBChoose4 {background-image: url(../images/choose/choose_1.png);}
+
+.TBChoose{
+        background-size: contain;
+    width: 89%;
+    font-size: 15px;
+}
+.TBNum{
+    left: 12px;
+    top: 9px;
+}
+#TBPCDealsInteract {position: relative;left: 112px;top: 71px;display: inline-block;}
+
+#TBPCDealsInteract select {
+    background-color: #fff!important;
+    background-image:none!important;
+}
+    #TBPCDealsInteract select {
+        -webkit-appearance: none;
+    }
+#TBPCCurrency {
+}
+
+#c {margin-bottom: 6px;display: inline-block;width: 100%;}
+.TBPCButtons{
+    
+height: 100%;
+    
+float: left;
+    
+padding-top: 10px;
+    
+cursor: pointer;
+}
+.TBPCButtons.TBPCBActive,
+.TBPCButtons:hover{
+  background-image: none !important;
+  background-color: #575674;
+}
+.TBPCButtons img{
+    width: 13px;
+}
+.TBPCButtons span{
+    color: white;
+    margin-left: 12px;
+}
+
+#TBPCButtonHigh {
+    background-image: -moz-linear-gradient( 90deg, #52c873 0%, #16932d 100%);
+    background-image: -webkit-linear-gradient( 90deg, #52c873 0%, #16932d 100%);
+    background-image: -ms-linear-gradient( 90deg, #52c873 0%, #16932d 100%);
+    border-radius: 10px;
+}
+#TBPCButtonHigh img{
+
+}
+#TBPCButtonLow img{
+    
+}
+
+#TBPCButtonLow {background-image: -moz-linear-gradient( 90deg, #ff6b5b 0%, #ff3831 100%);background-image: -webkit-linear-gradient( 90deg, #ff6b5b 0%, #ff3831 100%);background-image: -ms-linear-gradient( 90deg, #ff6b5b 0%, #ff3831 100%);border-radius: 10px;}
+
+#TBPCNumber {
+}
+
+#TBPCDealButton {background: #f56b1f;width: 229px;height: 46px;text-align: center;line-height: 46px;font-size: 17px;color: white;margin: 0 auto;}
+#TBCBottom{}
+#TBPCOutput{display: inline-block;margin: 0 auto;margin-top: -8px;margin-bottom: 7px;}
+#TBPCDealButton{
+  cursor: pointer;
+}
+#TBPCArrowThis{
+  position: absolute;
+  top: 20px;
+  right: 65px;
+}
+#TBPCButtonLow img {
+    transform: rotateZ(180deg);
+}
+@media only screen and (max-width: 1870px) {
+    #TBPCArrowThis{
+        right: 40px;
+    }
+}
+@media only screen and (max-width: 1770px) {
+    .TBPCSelect{
+        width: 300px;
+    }
+    .TBPCButtons span{
+        font-size: 14px;
+    }
+    #TBPCArrowThis{
+        right: 10px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    #TBPCArrowThis{
+        display:none;
+    }
+    .TBChoose{
+        width:95%;
+    }
+    .TBPCSelect {
+    width: 275px;
+}
+    .TBPCButtons span {
+    font-size: 13px;
+}
+    #TBInner{
+        left: 40%;
+        min-width: 782px;
+    }
+  }   
+@media only screen and (max-width: 1400px){
+    #TBTitle{
+        margin-top: 40px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+    #TBInner{
+        left: 20%;
+        min-width: 782px;
+        top: 34px;
+    }
+    #TBInnerDesc{
+        top: 34px;
+    }
+    #TBPCBlock{
+        margin-top: 63px;
+    }
+    #TBMain{
+        background-image:url(../images/bgCountry.jpg);
+        background-size:cover;
+        width:100%;
+        height: 90%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    #TBInner {
+    left: 16%;
+}
+}
+@media only screen and (max-width: 1100px){
+    .TBPCButtons span {
+    font-size: 12px;
+}
+    #TBContainer {
+    height: 636px!important;
+}
+    #TBMain {
+    height: 555px!important;
+}
+    #TBContainer{
+        height: 88%;
+    }
+    #TBPCDealButton{
+        margin-top: 6px;
+    }
+    #TBPCDealsInteract{
+        top: 63px;
+    }
+    #TBPCDeals{
+        top: 64px;
+    }
+    .TBPCSelect{
+        height: 37px;
+    }
+  #TBPCOutput {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-top: -4px;
+    margin-bottom: 8px;
+}
+    #TBPCValue{
+        font-size: 14px;
+    }
+    #TBMain{
+            height: 85%;
+    }
+    #TBPCBlock {
+    margin-top: 27px;
+}
+    #TBInnerTitle{
+        margin-top: -10px;
+        margin-bottom: 13px;
+        display:none;
+    }
+    #TBInnerPercent{
+        display:none;
+            top: 0px;
+    }
+    #TBInnerDesc {
+    top: 1px;
+}
+  
+    #TBInner {
+    left: 12%;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    #TBInner {
+    left: 11%;
+}
+}
+
+@media only screen and (max-width: 900px){
+    #TBInner {
+    left: 10%;
+    min-width:700px;
+}
+    .TBChoose{
+        font-size: 12px;
+        padding-top: 9px;
+    }
+    .TBPCSelect {
+    width: 240px;
+    height: 28px;
+}
+    #TBPCButtons{
+        height: 35px;
+    }
+    #TBPCDeals{
+        left: 80px;
+        top: 60px;
+    }
+    .TBNum{
+        left: 11px;
+    }
+    #TBPCDealsInteract{
+        left: 94px;
+        top: 60px;
+    }
+    #TBPCValue{
+        font-size: 15px;
+    }
+    .TBPCButtons span {
+    color: white;
+    padding: 0;
+    margin: 0px;
+    margin-left: 0px;
+}
+    #TBPCOutput div{
+        font-size:14px;
+        line-height: 19px;
+    }
+    #TBPCDealButton{
+            background: #f56b1f;
+        width: 191px;
+        height: 37px;
+        line-height: 39px;
+        font-size: 16px;
+        color: white;
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (max-width: 800px){
+    #TBInner {
+    left: 4%;
+}
+}
+
+@media only screen and (max-width: 768px){
+     #TBContainer {
+    height: 673px!important;
+}
+  #TBMain {
+    height: 650px!important;
+}
+    #TBPCDealButton {
+    width: 260px!important;
+    height: 60px!important;
+    line-height: 60px!important;
+    margin-top: 18px!important;
+    font-size: 22px;
+}
+    #TBPCOutput div {
+    font-size: 19px;
+    line-height: 24px;
+}
+    #TBPCValue {
+    font-size: 25px;
+}
+    .TBPCButtons span {
+    font-size: 15px;
+}
+    #TBPCButtonHigh img{
+        font-size: 15px;
+        font-family: 'OpenSans-Light';
+    }
+    #TBPCButtons{
+        padding-top: 0;
+        height: 55px!important;
+         
+    }
+
+.TBPCButtons{
+    padding-top: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+   .TBPCSelect {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+}
+    
+    #TBPCBackground {
+    display:none;
+}
+    #TBPCDeals {
+    left: 208px;
+    top: 5px;
+    width: 300px;
+    display:none;
+}
+    #TBPCDealsInteract {
+position:inherit;
+display:block;
+max-width: 500px;
+margin: 0 auto;
+margin-top: 50px;
+}
+    .TBChoose {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 12px;
+}
+    .TBNum {
+    left: 13px;
+    top: 12px;
+}
+  
+    #TBTitle{
+        font-size: 36px;
+    }
+    #TBInnerDesc{
+        font-size: 22px;
+    }
+    #TBInnerPercent{
+        font-size: 57px;
+    }
+    #TBPCOutput{
+        margin-bottom: 18px;
+    }
+    #TBPCDealButton{
+        width: 230px;
+    height: 46px;
+    line-height: 48px;
+    }
+    #TBMain{
+        height: 92%;
+    }
+    #TBInner {
+    left: 0;
+    min-width:100%;
+}
+    #TBContainer{
+            height: 72%;
+    }
+}
+@media only screen and (max-width: 767px){
+    #TBPCOutput {
+    margin-bottom: 6px;
+}
+    #TBPCOutput div {
+    font-size: 16px;
+}
+    #TBPCButtons {
+    height: 41px!important;
+}
+    .TBPCSelect{
+        height: 40px;
+    }
+    #TBInnerDesc {
+    top: 0px;
+}
+    #TBInnerDesc span{
+        font-size: 19px;
+    }
+    #TBInnerUnderline{
+        width: 80%;
+    }
+    #TBContainer {
+    height: 97%;
+}
+   #TBPCValue {
+    font-size: 20px;
+}
+   .TBPCButtons{
+       padding-top: 10px;
+   }
+   #TBTitle {
+    letter-spacing: 1px;
+}
+}
+@media only screen and (max-width: 413px){
+  
+    #TBInner {
+    left: 0;
+    min-width: 100%;
+    margin-top: -11px;
+}
+    #TBTitle {
+    font-size: 30px;
+    margin-top: 31px;
+}
+    #TBPCDealButton {
+    width: 230px!important;
+    height: 46px!important;
+    line-height: 48px!important;
+    font-size: 20px!important;
+}
+    #TBPCBlock {
+    margin-top: -30px;
+}
+
+    #TBInnerDesc span {
+    font-size: 17px;
+}
+    #TBContainer{
+        height: 559px;
+    }
+    #TBPCValue {
+    font-size: 17px;
+}
+}
